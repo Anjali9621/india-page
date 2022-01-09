@@ -1,0 +1,261 @@
+
+<html><head>
+<style>
+#outer
+{
+height:1200px;
+width:1000px;
+//border:1px solid white;
+margin:0px auto;
+}
+#menu
+{
+height:50px;
+width:1000px;
+background-color:blue;
+border:1px solid;
+border-radius:20px 20px 0px 0px;
+}
+
+
+#silder
+{
+height:250px;
+width:1000px;
+background-color:white;
+margin-top:5px;
+}
+#parent
+{
+height:600px;
+width:1000;
+//border:1px solid white;
+margin-top:5px;
+}
+#left
+{
+height:600px;
+width:700px;
+background-color:white;
+float:left;
+border-radius:0px 0px 0px 20px;
+text-align:justify;
+}
+#right
+{
+height:600px;
+width:300px;
+background-color:lightgray;
+float:right;
+border-radius:0px 0px 20px 0px;
+font size:15PX;
+text-align:justify;
+}
+#footer
+{
+height:270px;
+widht:1000px;
+background-color:white;
+margin-top:20px;
+border-radius:20px;
+border:10px solid white;
+}
+.one
+{
+height:240px;
+width:310px;
+//border:1px solid;
+margin-left:10px;
+margin-top:15px;
+float:left;
+}
+#menu ul li
+{
+display:inline;
+padding:50px;
+}
+#menu ul li a
+{
+text-decoration:none;
+color:white;
+}
+#menu ul :hover
+{
+background-color:red;
+}
+#right ul li
+{
+list-style-type:none;
+}
+#a1
+{
+height:240;
+width:310;
+//background-color:green;
+}
+#b1
+{
+height:80px;
+width:65px;
+background-color:white;
+border:1px solid white;
+float:left;
+margin:10px;
+}
+#b2
+{
+height:80px;
+width:65px;
+background-color:white;
+border:1px solid white;
+float:left;
+margin:10px;
+}
+#b3
+{
+height:80px;
+width:65px;
+background-color:white;
+border:1px solid white;
+float:left;
+margin:10px;
+}
+#A1
+{
+height:120px;
+width:310px;
+//background-color:red;
+}
+#A2
+{
+height:120px;
+width:310px;
+//background-color:yellow;
+}
+#c1
+{
+height:80px;
+width:65px;
+background-color:white;
+border:1px solid white;
+float:left;
+margin:10px;
+}
+#c2
+{
+height:80px;
+width:65px;
+background-color:white;
+border:1px solid white;
+float:left;
+margin:10px;
+}
+#c3
+{
+height:80px;
+width:65px;
+background-color:white;
+border:1px solid white;
+float:left;
+margin:10px;
+}
+#m1
+{
+height:240px;
+width:310px;
+//background-color:yellow;
+text-align:justify;
+}
+#m2
+{
+height:240px;
+width:310px;
+//background-color:blue;
+text-align:justify;
+}
+</style>
+</head>
+<body bgcolor="navy">
+<div id="outer">
+<div id="menu">
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">ABOUT US</a></li>
+<li><a href="#">PRODUCT</a></li>
+<li><a href="#">LOGN IN</a></li>
+<li><a href="#">SING IN</a></li>
+</ul>
+</div>
+<div id="silder"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAwFBMVEUThwj/mTT/////mDAAfAD/pk8BAIDp6ekAAHgAAHwAAHcAAHQAAHAAAIH9/f8AAG3T0+ZTU563t9Wensa+vtny8vnr6/Sqqs3OzuPJyeDu7vZ/f7Rqaqp3d7D/rVZNTZuWlsHd3exwcK0+PpReXqSvr9BKSpkkJIuOjr0VFYbn7fGDg7g0NJErK40eHoljY6ba4famrdYOD4VBQpY5OJJWVp2fn8svL42IiLeXl74kJIdVVadfX6KTlMM8PJkTFIjUjomUAAAJTElEQVR4nO2baZPbuBFAJ0jCRQMiRfGmSEYidS+l0VqHJXtn7P//r9JNajyOUbVVqUpAl6vfB1mkZBf0jO4GcTz9jfmRp6Eb8BPCTkzYiQk7MWEnJuzEhJ2YsBMTdmLCTkzYiQk7MWEnJuzEhJ2YsBMTdmLCTkzYiQk7MWEnJuzEhJ2YsBMTdmLCTkzYiQk7MWEnJuzEhJ2YsBMTdmLCTkzYiQk7MWEnJuzEhJ2YsBMTdmLCTkzYiQk7MWEnJuzEhJ2YsBMTdmLCTkzYiQk7MWEnJuzEhJ2YsBMTdmLCTkye/s78yNM/fwr+9WDodnQ8/S5+Av7Igg8fPgTZH0M3hPj96beBWzANqp2USkrAV6V2RRAP3KLfhnXiBTOU4XwPqplEQ7ZpWCfx3H0XAvDtPchT6A3XrCGdhI7sFbgLCZDO8lajF+jMSGc1WLuGc1LvVW9khqGStrWYeSJs8vwe9p1FneuBWjaYk7CLFHCUG6dld+cwpddtLhrdfybTYZo2lJOGOgkc6gSrjD+mO56b0B/46qVh6JIVXQ3StmGceGvKJNAc+vDQAb7EQBe17u5EK9+lrDIZoHHDOPEWQHVGJ5HblZc1/fSpogo8X9CN+Ksnnrv4Odtv3TBO1kBd4IC9Y9/Q9X2Ew7REU6U5FHSjnAuRnSl+YICeMoSTBgNHtt3bbEydIx+F6KR7GVNezXU/lG01ftF+ThnASUrpdeL2qeQqsdpM9QUzyWiL1WiUYWg5XWcROaTYU5T16mPfSU3pVfn5OOiuNGUMV9fYObAknzUqqnRXgVZjX1wo0doep9h30uVXNRXR+E6XjX6lyrwVgV5jTgGMJ92NV+YUVrsh8qx1JyuMHPeY47t0vMSqk0jlYzg94wd7EaqZEM/ax0+LMeZZEdFIX1oe5tt24tF/fN6//zS6YZAU8oTxpPxUbsQaU29LXkQ5avovlSjFtdpE605CyibtI0PctZPhWA1KAVCk8lRLuaoVjlO8iZ71X8kuOHaTodU22nZC3eSeLK5+d1UpfKZ5BR3N4LkAtwVZ7+Eg4r3adIO5bOH6mfWOYtlJhNkEu4VI9aKbNyqlKgT2hBbgCKclQCtVkOAQliqPPxtXnsiwZymrk0yWnSzxP13jOERMr+NN6tH4RC4/Kmj2sIVbIydn2PkuSByl+JORQ4mHkjK82GykXSceDdfafgotAu1sYzEDWBQKUj3/PCv0Rylb7BaBqK9aH7svxhsauNmcdrPrJJKYTd4uvFJLWdVXkNt2lJ6LY9UswtHrDVSYLLWE4O2La3SSW2ylXScF4ENdmCePy9yVoJYtjPxil83S9BodilcFr6UGte4febxsfqW83FpspV0nZ6yreXQc6UWR+mTmLgFO0VKLMqvyoKwv9fjq36CfYquj9jAeL/MMI25tsZV2ndCwnoaneQUjreF8D8LrTuooWov2QximW+8UJA7ApK7Do6P16LzyaAYOe4rFVlp1kuj3CZGscDGdSDhVH1u1jV+vgMl29Rr72mmw+uBHejPvg6yiYpX8xb/7P8aqEwoC9S3HCv9+wNCR6phH1aabVQM/nQUpxg4op/LfvkdOVGavmVadUNlp3i+9OElfimJ7r4rrY7nrq58ftHSem+/rTHyyO2qz7yRO/CD9VCwXtx12DIDdZV2k7ttqYBAFq9dys57NlmV1/4Q5ZhXkaEz+wk6cW7O+3D6fHJBaKwwdZ1+mUfZtVbQtXa2AZEmFOXaknOf9DAcov7ITWHbvvDhOkjqLXv9sq/KyjjZvToI8Ws2Ph/N6WYRp5CdTGqb46td1kqtu3P6NqMQOoS5RXT3yCRyjNXYT91D43/+98heOHZ8e565vF4WrMET2H8OFjl4mXd15DhZpWlIBUu57mg01TeDaa6ZVJ55+jNlEMt+MsEMc7tsJqE3grLb3/e7S+Mv6ps+TwwWzidJO1WuheShtcaOO3XEslhfwhJcuxqNdlfqeWGGXOLe6afJLva2aJNSrChMvFqd83uz0WJUYM7G0O6tk18kLVpRm6Zah3z37e1cF8stEOh9Hmc6Xy1c5nehZQxW6zzp1tH1xj+G31GwHu07m6OT9aS53QH0OLgCVnNyd8NIsJlC7AMVEg76+B8sRHhFnCbtOKMk6bxWk1Wq3wh8M+z20u0PhFBJ//UfsFHW9xGTzVqC8CaYTiynW9twjjVd19+iS3EanFMVIOSkxgcB6LRu4HZwT7UxJRF3J0bLrKjXYnqS27KSFx8pEqh36Y6VUOQXntobZHv7EQS0GUo7jfbQxvYOkrlLQBENhs5GWndS6W/+Nr+qVsqwvVSu2oFbgfHmGGSZgLM1JvVMX+tQLHcwqc5opsLpkbHt954z5MszctguLxFGh8NBELWX6DO0STp6EUsRr/RjZrfYRzVcurLbRtpO8W+B51JQbzQCEyvFSCfFBfgqkjDGasFNU47dtJ6m0PEM9wBo6dhTn0i+KLwGribfTAWbapbjI0AP89UtF2wrC8aP6VmB9Y4F1JzWVY33Ed/dusW9FYXJWKzFTqSjVXMQOdRSRj0hcocHusw5hf/9J0T0CCxHsurHsDaZCSBWLRq9Erl/wabnff5JALpJux6jt3VsD7N2iuZKT5/cBEdEGtoT6ylxjcnEB7zWjrsx4X2qahHKebTdwACe0eQs2jxHHgob6GcVJSlvZ7iOKJ6ffWC0qPcTWrUH2PQZdRGxpQJZ1DsIxFqJgjG/rMZUYv+sodbKg1BP89T/2f2CQ/bE0SeQA7Ryfdbttmr6zkJ5Dt9Rxx8fgo6bA0Xa343QMs7d8TlKck6j33eWGVkIT2vIown5/0ufa776ibT4PvzHQGYRujyysZ32uGJONBGgkF/f77ZP1oTuvMkAvGe5cRu50E7CX2y0T9YHu0B57ZF2LaD2v+mXBYc7ADXZ+Jzk/jjRtRJQK6iJYnNFKFOS6P+ulLhbXiL9nwLNvYX/KzXF398Z9rsWLCL/us8Z5LGtYnVr7D4Y8Dzit4O33O/D57O7oce9xR5YDdRIx9FnapHB+OEnbC4FqqLOAxMDni4UXXOms6LsPvJqshj11PbQT0W1ZK3e0CUdK2JXzbOhj6Ohk8CY8iJOfpiVP/2B+5IlhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGOa/5N/zcXFn9UyV4wAAAABJRU5ErkJggg==" height="250px" width="1000px"></div>
+<div id="parent">
+<div id="left"><font size="5px"><br>Template license<br></font><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvrAwt5T-tpmIoPELUyvDx-Wy0tF_yYXEt8Q&usqp=CAU"
+<br>
+    <p style="font-size: 20px;">The Gateway of India is an arch monument built during the 20th century in Bombay, India. The monument was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911.
+
+    Built in Indo-Saracenic style, the foundation stone for the Gateway of India was laid on 31 March 1911. The structure is an arch made of basalt, 26 metres (85 feet) high. The final design of George Wittet was sanctioned in 1914 and the construction of the monument was completed in 1924. The Gateway was later used as a symbolic ceremonial entrance to India for Viceroys and the new Governors of Bombay.  It served to allow entry and access to India.
+    
+    The Gateway of India is located on the waterfront at Apollo Bunder area at the end of Chhatrapati Shivaji Marg in South Mumbai and overlooks the Arabian Sea. The monument has also been referred to as the Taj Mahal of Mumbai, and is the city’s top tourist attraction.</p>
+<br>
+<br>
+</div>
+<div id="right"><center>
+<h1>Sidebar Menu</h1></center>
+<ul>
+<li>HOME</li></br>
+<li>ABOUT US</li><br/>
+<li>PRODUCT</li></br>
+<li>LOGN IN</li><br/>
+<li>SING IN</li><br/>
+</ul>
+<br>
+<center>
+<h1>sponsors</h1></center>
+<ul>
+<li>Type</li><br>
+<li>Name</li><br>
+<li>Value</li><br>
+<li>Placeholder</li><br>
+<li>Textarea</li><br>
+</ul>
+</div>
+</div>
+<div id="footer">
+<div class="one">
+<div id="a1">
+<div id="A1">
+<div id="b1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLuXIPANPa1QYf7biu4IofHBsu2jEJ58Z6RA&usqp=CAU" height="80" width="65"></div>
+<div id="b2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwM4XITGbyGOMBLtHolJq5xT11-UUGfDLmSA&usqp=CAU" height="80" width="65"></div>
+<div id="b3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxFlMruxj21gjuQQWOPT3ZVRyTZNt912h7aQ&usqp=CAU" height="80" width="65"></div>
+
+</div>
+
+<div id="a2">
+<div id="c1"><img src="w4.png" height="80" width="65"></div>
+<div id="c2"><img src="w6.png" height="80" width="65"></div>
+<div id="c3"><img src="g1.png" height="80" width="65"></div>
+
+</div>
+</div>
+
+</div>
+<div class="one">
+<div id="m1">
+<font size="3px">Lorem Iqsum</font>
+<br>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+</div></div>
+<div class="one">
+<div id="m2">
+<font size="5px">Contact</font>
+<h3>Name :</h3> Anjali sharma
+
+    <h3>Email :</h3>
+<span style="color:green;"><font size="2px"><u>sharmaashish@2005gmail.com</u></font></span>
+
+</div>
+</div>
+</div>
+</div>
+
+</body></html>
